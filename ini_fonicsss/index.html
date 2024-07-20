@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonics.id</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-heart"></i> fonics.id</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#feature">feature</a>
+            <a href="#team">team</a>
+            
+        </nav>
+
+    <!-- login section starts -->
+<div class="icons">
+    <div class="fas fa-bars" id="menu"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+</div>
+
+<form action="login.php" method="post" class="login-form">
+    <h3>Login form</h3>
+    <input type="email" name="email" placeholder="Enter Your Email" class="box">
+    <input type="password" name="password" placeholder="Enter Your Password" class="box">
+    <div class="remember">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember me</label>
+    </div>
+    <input type="submit" value="Login" class="btn">
+    <p>Forget password? <a href="#">click here</a></p>
+    <p>Don't have an account? <a href="#registrasi">Create one</a></p>
+</form>
+    <!-- login section ends -->   
+    
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Welcome to Fonics.id</h3>
+            <p>Let's join the smart farming revolution with IoT-based fogponics and make your plants grow healthier, stronger and more productive than ever!</p>
+            <a href="#" class="btn"> see more info</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- feature section starts -->
+
+    <section class="feature" id="feature">
+
+        <h1 class="heading"><span>awesome</span> features</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-heart"></i>
+                <h2>Real Time Sensor Monitoring</h2>
+                <p>Continuous tracking and analysis of sensor data as it is generated</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-dumbbell"></i>
+                <h2>Real time Actuator Monitoring</h2>
+                <p>Continuous tracking and analysis of actuator data as it is generated</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-apple-alt"></i>
+                <h2>Get Report Document</h2>
+                <p>Download the table of sensors and actuators in the database</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bed"></i>
+                <h2>Ask the Developer</h2>
+                <p>Contact the developer to resolve your technical problems</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- feature section ends -->
+
+
+
+
+
+    <!-- deal section starts -->
+
+    <section class="deal">
+
+        <div class="image">
+            <img src="images/download.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Monitor your plants anywhere and anytime!</h3>
+            <p>healthy plants, without the hassle of caring for them with a fogponic system</p>
+         
+        </div>
+
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- team section starts -->
+
+    <section class="team" id="team">
+        <div>
+
+        <h1 class="heading"><span>our </span> team</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pak-anang.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Anang Andrianto,  ST., MT.</h3>
+                    <h4>CEO</h4>
+                    <div class="share">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pak-is.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dwiretno Istiyadi S., ST., M.Kom.</h3>
+                    <h4>CEO</h4>
+                    <div class="share">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/azki.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Azkiya Fadiyah Ammar</h3>
+                    <h4>CEO</h4>
+                    <div class="share">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- team section ends -->
+    
+ 
+<!-- regis section starts -->
+<section class="registrasi" id="registrasi">
+    <div class="box-container-regis">
+        <h1 class="heading"><span>Registration</span></h1>
+        <div class="box-container">
+            <form action="regis.php" method="post" class="registrasi-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- regis section ends -->
+
+<!-- regis section ends -->
+
+    <!-- regis section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-heart"></i> Fonics.id</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +123-456-83476</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +123-456-83476</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> info@Fonics.id.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> california</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> feature</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> pricing</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> privacy policy</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> refund policy</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> &copy; 2024 fonics.id. All rights reserved by <a href="#" class="link"> azk</a></div>
+
+    </section>
+
+
+    <!-- footer section ends -->
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom js link -->
+    <script src="script.js"></script>
+</body>
+</html>
